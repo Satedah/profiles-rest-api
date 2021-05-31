@@ -1,0 +1,27 @@
+#navigate to virtual environment
+Git Bash Terminal:
+cd Documents/
+cd Courses/
+cd profiles-rest-api/
+
+#Boot up vagrant server
+vagrant up
+
+#Shell into vagrant server
+vagrant ssh
+
+#navigate to vagrant root files
+cd /vagrant
+
+#open virtual environment
+source ~/env/bin/activate
+
+#Django Commands
+#Start up the development server
+python manage.py runserver 0.0.0.0:8000
+
+#Commiting to github
+#New terminal and navigate to project directory (profiles-rest-api)
+git add .
+git commit -am "<message>"
+git pus origin
