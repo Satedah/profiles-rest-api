@@ -24,4 +24,4 @@ python manage.py runserver 0.0.0.0:8000
 #New terminal and navigate to project directory (profiles-rest-api)
 git add .
 git commit -am "<message>"
-git pus origin
+git push origin
